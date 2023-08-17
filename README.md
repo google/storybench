@@ -100,3 +100,6 @@ Note that:
 This work is licensed under the Apache License. See [`LICENSE`](LICENSE) for details.
 
 We rely on third-party software and models to compute automatic evaluation metrics, released under MIT and Apache licenses.
+
+The annotations are licensed by Google LLC under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
+
