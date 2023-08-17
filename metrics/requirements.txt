@@ -1,0 +1,8 @@
+absl-py
+tensorboard
+# clip
+open-clip-torch==2.10.1
+# dover
+einops
+# internvideo
+opencv-python
