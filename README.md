@@ -20,7 +20,7 @@ Training data can be dowloaded from the following links:
 - [uvo_sparse-train_pipeline](https://storage.googleapis.com/storybench/uvo_sparse-train_pipeline.json): original VidLN caption as well as algorithmically generated stories
 - [uvo_sparse-train_pipeline+traces](https://storage.googleapis.com/storybench/uvo_sparse-train_pipeline+traces.json): same as above plus mouse traces from VidLN
 
-We also share our Oops validation data used to assess the robustness of our data transformation pipeline:
+While human-annotated evaluation files are recommended (see ['metrics/data/'](metrics/data/)), we also share our automatically generated Oops validation data, which we used to assess the robustness of our data transformation pipeline:
 - [oops-valid_pipeline](https://storage.googleapis.com/storybench/oops-valid_pipeline.json): original VidLN caption as well as algorithmically generated stories
 - [oops-valid_pipeline+traces](https://storage.googleapis.com/storybench/oops-valid_pipeline+traces.json): same as above plus mouse traces from VidLN
 
