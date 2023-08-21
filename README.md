@@ -5,6 +5,25 @@ This is the implementation of the approaches described in the paper:
 
 We provide our text annotations, guidelines for human evaluation, and the code for computing automatic metrics.
 
+## Data
+
+[`data/`](data/) contains the evaluation data for StoryBench.
+- [`data/llm_outputs/`](data/llm_outputs/) contains the captions split by our instruction-tuned LLM
+- [`data/tasks/`](data/tasks/) contains the evaluation data formatted for the StoryBench tasks of `action_exe`, `story_cont` and `story_gen`
+
+Training data can be dowloaded from the following links:
+- [didemo-train](https://storage.googleapis.com/storybench/didemo-train.json): original DiDeMo data
+- [oops-train_pipeline](https://storage.googleapis.com/storybench/oops-train_pipeline.json): original VidLN caption as well as algorithmically generated stories
+- [oops-train_pipeline+traces](https://storage.googleapis.com/storybench/oops-train_pipeline+traces.json): same as above plus mouse traces from VidLN
+- [uvo_dense-train_pipeline](https://storage.googleapis.com/storybench/uvo_dense-train_pipeline.json): original VidLN caption as well as algorithmically generated stories
+- [uvo_dense-train_pipeline+traces](https://storage.googleapis.com/storybench/uvo_dense-train_pipeline+traces.json): same as above plus mouse traces from VidLN
+- [uvo_sparse-train_pipeline](https://storage.googleapis.com/storybench/uvo_sparse-train_pipeline.json): original VidLN caption as well as algorithmically generated stories
+- [uvo_sparse-train_pipeline+traces](https://storage.googleapis.com/storybench/uvo_sparse-train_pipeline+traces.json): same as above plus mouse traces from VidLN
+
+We also share our Oops validation data used to assess the robustness of our data transformation pipeline:
+- [oops-valid_pipeline](https://storage.googleapis.com/storybench/oops-valid_pipeline.json): original VidLN caption as well as algorithmically generated stories
+- [oops-valid_pipeline+traces](https://storage.googleapis.com/storybench/oops-valid_pipeline+traces.json): same as above plus mouse traces from VidLN
+
 
 ## Metrics
 [`metrics/`](metrics/) contains the source code to perform automatic evaluation of generated videos.
