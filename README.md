@@ -1,9 +1,11 @@
 # StoryBench: A Multifaceted Benchmark for Continuous Story Visualization
 
 This is the implementation of the approaches described in the paper:
-> Emanuele Bugliarello, Hernan Moraldo, Ruben Villegas, Mohammad Babaeizadeh, Mohammad Taghi Saffar, Han Zhang, Dumitru Erhan, Vittorio Ferrari, Pieter-Jan Kindermans, Paul Voigtlaender. StoryBench: A Multifaceted Benchmark for Continuous Story Visualization. 2023.
+> Emanuele Bugliarello, Hernan Moraldo, Ruben Villegas, Mohammad Babaeizadeh, Mohammad Taghi Saffar, Han Zhang, Dumitru Erhan, Vittorio Ferrari, Pieter-Jan Kindermans, Paul Voigtlaender. [StoryBench: A Multifaceted Benchmark for Continuous Story Visualization](https://arxiv.org/abs/2308.11606). _Advances in Neural Information Processing Systems 37 (NeurIPS 2023)_.
 
 We provide our text annotations, guidelines for human evaluation, and the code for computing automatic metrics.
+
+Leaderboards are available on [Papers With Code](https://paperswithcode.com/dataset/storybench).
 
 ## Data
 
@@ -122,3 +124,14 @@ We rely on third-party software and models to compute automatic evaluation metri
 
 The annotations are licensed by Google LLC under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
+If you find our code/data/models or ideas useful in your research, please consider citing the paper:
+```
+@inproceedings{bugliarello-etal-2023-storybench,
+    author = {Bugliarello, Emanuele and Moraldo, Hernan and Villegas, Ruben and Babaeizadeh, Mohammad and Taghi Saffar, Mohammad and Zhang, Han and Erhan, Dumitru and Ferrari, Vittorio and Kindermans, Pieter-Jan and Voigtlaender, Paul},
+    title = "{{StoryBench}: {A} Multifaceted Benchmark for Continuous Story Visualization}",
+    booktitle = {Advances in Neural Information Processing Systems},
+    publisher = {Curran Associates, Inc.},
+    url = {https://arxiv.org/pdf/2308.11606.pdf},
+    volume = {37},
+    year = {2023}
+}
